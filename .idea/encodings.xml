@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/bl/UserBL.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/db/ConnectionPoolIMP.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/AnimeAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/AnimeClassAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/CommentAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/RegisterAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/UserAction.java" charset="UTF-8" />
+  </component>
+</project>
+

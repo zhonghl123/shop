@@ -1,0 +1,63 @@
+
+-- ----------------------------
+-- 用户表
+-- ----------------------------
+DROP TABLE IF EXISTS `p_user`;
+CREATE TABLE `p_user` (
+  `username` varchar(20) NOT NULL DEFAULT '' COMMENT '用户名',
+  `password` varchar(20) NOT NULL COMMENT '密码',
+  `idname` varchar(50) NOT NULL,
+  PRIMARY KEY (`username`)
+)
+
+
+-- ----------------------------
+-- 动漫信息表
+-- ----------------------------
+CREATE TABLE `p_anime` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '动漫标示',
+  `name` varchar(20) NOT NULL COMMENT '动漫名称',
+  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
+  `inputer` varchar(20) NOT NULL COMMENT '录入人',
+  `file` blob COMMENT '动漫附件',
+  `note` varchar(2000) DEFAULT NULL COMMENT '动漫介绍',
+  PRIMARY KEY (`id`)
+)
+
+
+-- ----------------------------
+-- 评论回复表
+-- ----------------------------
+DROP TABLE IF EXISTS `p_reply`;
+CREATE TABLE `p_reply` (
+  `id` int(11) NOT NULL COMMENT '回复标示',
+  `comment_id` int(11) NOT NULL COMMENT '评论ID',
+  `anime_id` int(11) NOT NULL COMMENT '动漫ID',
+  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
+  `inputer` varchar(20) NOT NULL COMMENT '录入人',
+  PRIMARY KEY (`id`)
+)
+
+
+-- ----------------------------
+--动漫分类表
+-- ----------------------------
+DROP TABLE IF EXISTS `p_anime_classification`;
+CREATE TABLE `p_anime_classification` (
+  `id` int(11) NOT NULL DEFAULT '0' COMMENT '动漫分类标示',
+  `name` varchar(20) NOT NULL COMMENT '动漫分类名称',
+  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '动漫分类创建时间',
+  PRIMARY KEY (`id`)
+)
+
+-- ----------------------------
+-- 评论表
+-- ----------------------------
+DROP TABLE IF EXISTS `p_comment`;
+CREATE TABLE `p_comment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '论评标示',
+  `anime_id` int(11) NOT NULL COMMENT '漫动标示ID',
+  `inputer` varchar(20) NOT NULL COMMENT '论评录入人',
+  `create_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP COMMENT '评论创建时间',
+  PRIMARY KEY (`id`)
+)
