@@ -91,7 +91,7 @@
     </li>
     <li><a href="${path}/display?method=animeClassMain" target="mainFrame">品牌管理</a>
     </li>
-    <li><a href="${path}/display?method=animeMain" target="mainFrame">动漫管理</a>
+    <li><a href="${path}/display?method=animeMain" target="mainFrame">产品管理</a>
     </li>
 </ul>
 </body>

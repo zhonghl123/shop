@@ -10,7 +10,7 @@ import bo.User;
 import java.util.List;
 
 public class UserBL {
-
+    UserDAO userDao = new UserDAO();
     public void verify(User formUser) throws UserNoneException, PasswordFalseException {
         UserDAO userDAO = new UserDAO();
         List<User> dbUser = userDAO.findUser(formUser);
@@ -27,13 +27,12 @@ public class UserBL {
     }
 
     public List<User> find(User newUser) throws UserExistedException {
-        UserDAO userDao = new UserDAO();
         List<User> user = userDao.findUser(newUser);
         return user;
     }
 
     public void register(User newUser) throws UserExistedException {
-        UserDAO userDao = new UserDAO();
+
         List<User> user = userDao.findUser(newUser);
         if (user != null && !user.isEmpty()) {
             throw new UserExistedException();
@@ -42,29 +41,15 @@ public class UserBL {
         }
     }
 
-    public void resetPwd(User user) throws UserNoneException {
-        UserDAO userDAO = new UserDAO();
-        User dbUser = userDAO.findUser2(user);
-        if (dbUser != null && dbUser.getIdname().equals(user.getIdname())) {
-            userDAO.resetPwd(user);
-        } else {
-            throw new UserNoneException();
-
-        }
-    }
-
     public void del(String username) {
-        UserDAO userDAO = new UserDAO();
-        userDAO.del(username);
+        userDao.del(username);
     }
 
     public int findCount(User user) {
-        UserDAO userDAO = new UserDAO();
-        return userDAO.findCount(user);
+        return userDao.findCount(user);
     }
 
     public List<User> find(User newUser, int pageSize, int pageNumber) {
-        UserDAO userDao = new UserDAO();
         List<User> user = userDao.findUser(newUser,  pageSize,  pageNumber);
         return user;
     }

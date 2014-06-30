@@ -15,17 +15,13 @@ import bl.UserBL;
 import bo.User;
 
 public class RegisterAction  {
-
+    UserBL userBL = new UserBL();
 	public void action(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String username = request.getParameter("userName");
 		String password = request.getParameter("userpwd");
-		String idNumber = request.getParameter("idNumber");
-		
-		User user  = new User(username,password,idNumber);
-		UserBL userBL = new UserBL();
+		User user  = new User(username,password);
 		String target = null;
-
 		try {
 			userBL.register(user);
 			target = "/login.jsp";
@@ -34,7 +30,6 @@ public class RegisterAction  {
 			request.setAttribute("error", e.toString());
 			request.setAttribute("existed_user", user);
 		}
-		//ת����Ӧҳ��
 		RequestDispatcher rd = request.getRequestDispatcher(target);
 		rd.forward(request, response);
 	}

@@ -41,8 +41,7 @@ public class UserDAO {
             while (rs1.next()) {
                 String name = rs1.getString(1);
                 String word = rs1.getString(2);
-                String idNumber = rs1.getString(3);
-                userList.add(new User(name, word, idNumber));
+                userList.add(new User(name, word));
             }
             return userList;
         } catch (SQLException e) {
@@ -53,46 +52,13 @@ public class UserDAO {
         }
         return userList;
     }
-
-    public User findUser2(User user) {
-        String username = user.getUsername();
-        String idName = user.getIdname();
-        String sql = "select * from p_user where username = ? and idname = ?";
-        User newUser = null;
-        ResultSet rs1 = st.executeQuery(sql, username, idName);
-        try {
-            if (rs1.next()) {
-                String name = rs1.getString(1);
-                String word = rs1.getString(2);
-                String idNumber = rs1.getString(3);
-                newUser = new User(name, word, idNumber);
-            }
-            return newUser;
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-
-        } finally {
-            st.close();
-        }
-        return newUser;
-    }
-
     public void addUser(User newUser) {
         String username = newUser.getUsername();
         String password = newUser.getPassword();
-        String idname = newUser.getIdname();
-        String sql = "insert into p_user(username,password,idname) values (?,?,?)";
-        st.executeUpdate(sql, username, password, idname);
+        String sql = "insert into p_user(username,password) values (?,?)";
+        st.executeUpdate(sql, username, password);
         //st.close();
     }
-
-    public void resetPwd(User user) {
-        String sql = "UPDATE p_user SET password = ? WHERE idname = ?";
-        st.executeUpdate(sql, user.getPassword(), user.getIdname());
-
-    }
-
     public void del(String id) {
         String sql = "delete from p_user where username=?";
         st.executeUpdate(sql, id);
@@ -133,20 +99,16 @@ public class UserDAO {
     public List<User> findUser(User newUser, int pageSize, int pageNumber) {
         List<User> userList = new ArrayList<User>();
         String username = newUser.getUsername();
-        String idname = newUser.getIdname();
         int start= pageSize*(pageNumber-1);
         String sql = "select * from p_user limit "+start+","+pageSize;
         ResultSet rs1;
-        if ((username != null && !"".equals(username)) && ((idname != null && !"".equals(idname)))) {
-            sql = "select * from p_user where  username = ? and idname =? limit "+start+","+pageSize;
-            rs1 = st.executeQuery(sql, username, idname);
+        if ((username != null && !"".equals(username))) {
+            sql = "select * from p_user where  username = ? limit "+start+","+pageSize;
+            rs1 = st.executeQuery(sql, username);
         } else if (username != null && !"".equals(username)) {
             sql = "select * from p_user where  username = ? limit "+start+","+pageSize;
             rs1 = st.executeQuery(sql, username);
-        } else if (idname != null && !"".equals(idname)) {
-            sql = "select * from p_user where  idname =? limit "+start+","+pageSize;
-            rs1 = st.executeQuery(sql, idname);
-        } else {
+        }  else {
             rs1 = st.executeQuery(sql);
         }
         User user = null;
@@ -154,8 +116,7 @@ public class UserDAO {
             while (rs1.next()) {
                 String name = rs1.getString(1);
                 String word = rs1.getString(2);
-                String idNumber = rs1.getString(3);
-                userList.add(new User(name, word, idNumber));
+                userList.add(new User(name, word));
             }
             return userList;
         } catch (SQLException e) {
