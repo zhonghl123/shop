@@ -7,9 +7,12 @@
     <style type="text/css">
         .logo {
             color: #6FF;
-            font-size: 50px;
+            font-size: 20px;
             font-family: 隶 书;
-            background-color: #000000;
+            border-bottom: 2px solid #FF4400;
+        }
+        .logo a{
+            margin-bottom:20px;
         }
     </style>
 </head>
