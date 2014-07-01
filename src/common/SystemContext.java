@@ -1,6 +1,6 @@
 package common;
 
-import bo.User;
+import bean.User;
 
 import javax.servlet.http.HttpSession;
 

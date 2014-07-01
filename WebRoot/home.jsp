@@ -203,7 +203,9 @@
             <c:if test="${!empty LOGIN_USER}">
                 当前登录用户：${LOGIN_USER.username}
                 <a href="${path}/display?method=loginout">退出</a>
-                <a href="${path}/display?path=/main.jsp">管理</a>
+                <c:if test="${LOGIN_USER.username=='admin'}">
+                    <a href="${path}/display?path=/main.jsp">管理</a>
+                </c:if>
             </c:if>
         </div>
     </div>

@@ -87,11 +87,11 @@
 
 <body>
 <ul id="nav">
-    <li><a href="${path}/display?method=userMain" target="mainFrame">厂商管理</a>
+    <li><a href="${path}/display?method=firmMain" target="mainFrame">厂商管理</a>
     </li>
-    <li><a href="${path}/display?method=animeClassMain" target="mainFrame">品牌管理</a>
+    <li><a href="${path}/display?method=brandMain" target="mainFrame">品牌管理</a>
     </li>
-    <li><a href="${path}/display?method=animeMain" target="mainFrame">产品管理</a>
+    <li><a href="${path}/display?method=goodMain" target="mainFrame">产品管理</a>
     </li>
 </ul>
 </body>

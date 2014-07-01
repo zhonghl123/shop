@@ -8,11 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import bean.User;
 import db.ConnectionProvider;
 import db.SQLTemplate;
 import exception.PasswordFalseException;
-import bo.Goods;
-import bo.User;
 
 public class UserDAO {
     SQLTemplate st = new SQLTemplate();
@@ -36,7 +35,6 @@ public class UserDAO {
             rs1 = st.executeQuery(sql);
         }
         User newUser = null;
-
         try {
             while (rs1.next()) {
                 String name = rs1.getString(1);
@@ -57,8 +55,8 @@ public class UserDAO {
         String password = newUser.getPassword();
         String sql = "insert into p_user(username,password) values (?,?)";
         st.executeUpdate(sql, username, password);
-        //st.close();
     }
+
     public void del(String id) {
         String sql = "delete from p_user where username=?";
         st.executeUpdate(sql, id);
