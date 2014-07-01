@@ -117,6 +117,8 @@ public class DownloadAction {
 }
  class MyFile {
     private String fileName;
+
+
     private byte[] file;
     private String url;
     public String getFileName() {
