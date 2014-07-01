@@ -46,7 +46,16 @@
 <body>
 <form name="form1" method="post" action="${path}/display?method=addGood" enctype="multipart/form-data">
     <input type="hidden" name="id" value="${domain.id}"/>
-    <table align="center" class="table-add">
+    <table align="center" class="table-add" style="width:800px;">
+        <tr>
+            <td><p >图片：
+                <p></td>
+            <td  class="tabRight">
+                <img width="220" height="220" data-img="1"
+                     src="${path}${domain.pic}"
+                     class="err-product">
+            </td>
+        </tr>
         <tr>
             <td><p >产品名：
                 <p></td>
@@ -58,9 +67,7 @@
                 <p></td>
 
             <td  class="tabRight">
-                <select name="firm" id="firm">
                     ${domain.firmName}
-                </select>
             </td>
         </tr>
         <tr>
@@ -68,9 +75,7 @@
                 <p></td>
 
             <td  class="tabRight">
-                <select name="brand" id="brand">
-                    ${domain.brandName}
-                </select>
+                ${domain.brandName}
             </td>
         </tr>
         <tr>
@@ -91,18 +96,10 @@
             <td  class="tabRight">${domain.des}
             </td>
         </tr>
-        <tr>
-            <td><p >图片：
-                <p></td>
-            <td  class="tabRight">
-                <img width="220" height="220" data-img="1"
-                     src="${path}/${domain.pic}"
-                     class="err-product">
-            </td>
-        </tr>
+
         <tr>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>
+            <td class="tabRight">
                 <input type="button" onclick="javascript:window.location.href='${path}/display?method=goHome'" class="btn_pink" size="20 " value="返回首页">
             </td>
         </tr>

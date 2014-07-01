@@ -267,7 +267,7 @@ a:hover {
             <c:forEach items="${domainList}" var="domain">
                 <div class="lh-wrap">
                     <div class="p-img">
-                        <a href="href="${path}/display?method=detailGood&id=${domain.id}"" target="_blank"
+                        <a href="${path}/display?method=detailGood&id=${domain.id}" target="_blank"
                         title="${domain.des}">
                         <img width="220" height="220" data-img="1"
                              src="${path}${domain.pic}"

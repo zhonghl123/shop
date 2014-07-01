@@ -108,7 +108,7 @@
 
 <form name="form1" method="post" action="${path}/display?method=addBuy">
     <input type="hidden" name="id" value="${domain.id}"/>
-    <table align="center" class="table-add">
+    <table align="center" class="table-add" style="width:800px;">
         <tr>
             <td><p >总价：
                 <p></td>

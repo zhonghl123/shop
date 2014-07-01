@@ -110,7 +110,7 @@
 
 <form name="form1" method="post"  action="${path}/display?method=addBuy">
     <input type="hidden" name="good_id" value="${domain.id}"/>
-    <table class="table-add">
+    <table class="table-add" style="width:800px;">
         <tr>
             <td><p >产品名
                 <p></td>
