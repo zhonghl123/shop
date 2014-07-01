@@ -7,20 +7,26 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 </head>
 <body>
-<form name="form1" method="post" action="${path}/display?method=addBrand">
+<form name="form1" method="post" action="${path}/display?method=addBuy">
     <input type="hidden" name="id" value="${domain.id}"/>
     <table align="center">
         <tr>
-            <td><p >品牌名：
+            <td><p >总价：
                 <p></td>
-            <td><input name="name" type="text" id="name" value="${domain.name}" size="20">
+            <td>${totalPrice}
             </td>
         </tr>
         <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>
-                <input name="submit" type="submit" class="btn_pink" size="20 " value="确定">
+            <td><p >付款方式：
+                <p></td>
+            <td>货到付款
             </td>
+        </tr>
+        <tr>
+            <td colspan="3"><p >
+                 <input type="button" value="继续购买" onclick="javascript:window.location.href='${path}/display?method=goHome'"/>
+                <p></td>
+
         </tr>
     </table>
 </form>

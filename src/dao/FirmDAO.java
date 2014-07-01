@@ -16,12 +16,7 @@ public class FirmDAO {
         List<Firm> list = new ArrayList<Firm>();
         String sql = "select * from p_firm";
         ResultSet rs1;
-        if (firm.getName() != null && !"".equals(firm)) {
-            sql += " where name = ?";
-            rs1 = st.executeQuery(sql, firm.getName());
-        }else{
-             rs1 = st.executeQuery(sql);
-        }
+         rs1 = st.executeQuery(sql);
         try {
             while (rs1.next()) {
                 Firm bean = new Firm();

@@ -32,7 +32,7 @@
     <script type="text/javascript">
         function del(id){
             if(confirm("确认删除么？")){
-                window.location.href="${path}/display?method=delBrand&id="+id;
+                window.location.href="${path}/display?method=delGood&id="+id;
             }
         }
     </script>
@@ -40,17 +40,27 @@
 <body>
 <table id="tb">
     <caption style="text-align: left;">
-        <input type="button" value="添加" onclick="javascript:window.location.href='${path}/display?path=brand/brandAdd.jsp'">
+        <input type="button" value="添加" onclick="javascript:window.location.href='${path}/display?method=addUIGood'">
     </caption>
     <tr>
-        <th>分类名</th>
+        <th>图片</th>
+        <th>产品名</th>
+        <th>厂商</th>
+        <th>品牌</th>
+        <th>价格</th>
+        <th>库存</th>
         <th>创建时间</th>
         <th>操作</th>
     </tr>
     <c:forEach var="domain" items="${domainList}">
         <tr>
+            <td>${domain.pic}</td>
             <td>${domain.name}</td>
-            <td><fmt:formatDate pattern="yyyy-MM-dd" value="${domain.createTime}"></fmt:formatDate></td>
+            <td>${domain.firmName}</td>
+            <td>${domain.brandName}</td>
+            <td>${domain.price}</td>
+            <td>${domain.stock}</td>
+            <td><fmt:formatDate pattern="yyyy-MM-dd" value="${domain.create_time}"></fmt:formatDate></td>
             <td>
                 <a href="javascript:del('${domain.id}')">删除</a>
             </td>

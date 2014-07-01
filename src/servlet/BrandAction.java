@@ -21,7 +21,7 @@ public class BrandAction {
 		String target = null;
 		try {
             request.setAttribute("domainList",dao.find(bean));
-			target = "/firm/brand.jsp";
+			target = "/brand/brandMain.jsp";
 		} catch (Exception e) {
 			target = "/error.jsp";
 		}
@@ -44,11 +44,11 @@ public class BrandAction {
         try {
 
             ServletContext context = request.getSession().getServletContext();
-            response.sendRedirect(context.getContextPath() + "/display?method=firmMain");
+            response.sendRedirect(context.getContextPath() + "/display?method=brandMain");
         } catch (Exception e) {
             e.printStackTrace();
             request.setAttribute("error", true);
-            target = "/firm/brandAdd.jsp";
+            target = "/brand/brandAdd.jsp";
             RequestDispatcher rd = request.getRequestDispatcher(target);
             rd.forward(request, response);
         }
@@ -60,7 +60,7 @@ public class BrandAction {
         try {
             dao.del(username);
             ServletContext context = request.getSession().getServletContext();
-            response.sendRedirect(context.getContextPath()+"/display?method=firmMain");
+            response.sendRedirect(context.getContextPath()+"/display?method=brandMain");
         } catch (Exception e) {
             target = "/error.jsp";
             RequestDispatcher rd = request.getRequestDispatcher(target);

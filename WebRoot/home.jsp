@@ -213,34 +213,32 @@
     <div id="mainContent">
         <div class="pTop"></div>
         <div class="pBody">
-            <div class="lh-wrap">
-                <div class="p-img">
-                    <a onclick="searchlog(1,1043963,0,2)" href="http://item.jd.com/1043963.html" target="_blank"
-                       title="八核1.7Ghz，超6万好评！超高好评率！中国好手机！买得到的中国好福利！">
-                        <img width="220" height="220" data-img="1"
-                             src="http://img13.360buyimg.com/n7/g14/M08/11/11/rBEhVVMF0gkIAAAAAAGb2Y8h8_0AAI6wQOwE6AAAZvx550.jpg"
-                             class="err-product">
-                    </a>
+           <c:forEach items="${domainList}" var="domain">
+               <div class="lh-wrap">
+                   <div class="p-img">
+                       <a href="href="${path}/display?method=detailGood&id=${domain.id}"" target="_blank"
+                          title="${domain.des}">
+                           <img width="220" height="220" data-img="1"
+                                src="${path}${domain.pic}"
+                                class="err-product">
+                       </a>
 
-                    <div shop_id="0" class="picon pi2"><b></b></div>
-                </div>
-                <div class="p-name">
-                    <a onclick="searchlog(1,1043963,0,1)" href="http://item.jd.com/1043963.html" target="_blank"
-                       title="八核1.7Ghz，超6万好评！超高好评率！中国好手机！买得到的中国好福利！">
-                        酷派 大神F1（8297）3G<font class="skcolor_ljg">手机</font>（智铂银）TD-SCDMA/GSM 双卡双待<font
-                            id="AD_1043963" class="adwords">八核1.7Ghz，超6万好评！超高好评率！中国好手机！买得到的中国好福利！</font>
-                    </a>
-                </div>
-                <div class="p-price">
-                    <em></em><strong class="J_1043963" done="1">￥888.00</strong> <span id="p1043963"></span>
-                </div>
-                <div class="btns">
-                    <a onclick="searchlog(1,1043963,0,4)">购买</a>
-                </div>
-                <div class="p-phone"></div>
-            </div>
-
-
+                       <div shop_id="0" class="picon pi2"><b></b></div>
+                   </div>
+                   <div class="p-name">
+                       <a onclick="searchlog(1,1043963,0,1)" target="_blank"
+                          title="${domain.des}">${domain.des}
+                       </a>
+                   </div>
+                   <div class="p-price">
+                       <em></em><strong class="J_1043963" done="1">￥${domain.price}</strong> <span id="p1043963"></span>
+                   </div>
+                   <div class="btns">
+                       <a href="${path}/display?method=buy&id=${domain.id}">购买</a>
+                   </div>
+                   <div class="p-phone"></div>
+               </div>
+           </c:forEach>
         </div>
     </div>
 </div>

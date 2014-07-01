@@ -11,7 +11,7 @@
     <input type="hidden" name="id" value="${domain.id}"/>
     <table align="center">
         <tr>
-            <td><p >分类名：
+            <td><p >厂商名：
                 <p></td>
             <td><input name="name" type="text" id="name" value="${domain.name}" size="20">
             </td>

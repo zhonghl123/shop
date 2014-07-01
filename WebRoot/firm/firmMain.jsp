@@ -43,7 +43,7 @@
         <input type="button" value="添加" onclick="javascript:window.location.href='${path}/display?path=firm/firmAdd.jsp'">
     </caption>
     <tr>
-        <th>分类名</th>
+        <th>厂商名</th>
         <th>创建时间</th>
         <th>操作</th>
     </tr>

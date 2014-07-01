@@ -21,7 +21,7 @@ public class FirmAction {
 		String target = null;
 		try {
             request.setAttribute("domainList",dao.find(bean));
-			target = "/firm/brand.jsp";
+			target = "/firm/firmMain.jsp";
 		} catch (Exception e) {
 			target = "/error.jsp";
 		}
@@ -48,7 +48,7 @@ public class FirmAction {
         } catch (Exception e) {
             e.printStackTrace();
             request.setAttribute("error", true);
-            target = "/firm/brandAdd.jsp";
+            target = "/firm/firmAdd.jsp";
             RequestDispatcher rd = request.getRequestDispatcher(target);
             rd.forward(request, response);
         }

@@ -40,7 +40,11 @@ public class DisplayServlet extends HttpServlet {
             new GoodAction().delAction(request, response);
         } else if ("detailGood".equals(methodName)) {    
             new GoodAction().detailAction(request, response);
-        } else if ("firmMain".equals(methodName)) {    
+        } else if ("buy".equals(methodName)) {
+            new GoodAction().buyAction(request, response);
+        } else if ("addBuy".equals(methodName)) {
+            new GoodAction().adBuyAction(request, response);
+        } else if ("firmMain".equals(methodName)) {
             new FirmAction().action(request, response);
         } else if ("addFirm".equals(methodName)) {    
             new FirmAction().addAction(request, response);
@@ -50,7 +54,9 @@ public class DisplayServlet extends HttpServlet {
             new BrandAction().action(request, response);
         } else if ("addBrand".equals(methodName)) {    
             new BrandAction().addAction(request, response);
-        } else if ("goHome".equals(methodName)) {    
+        }else if ("delBrand".equals(methodName)) {
+            new BrandAction().delAction(request, response);
+        } else if ("goHome".equals(methodName)) {
             new HomeAction().action(request, response);
         }  else if ("download".equals(methodName)) {    
             new DownloadAction().download(request, response);

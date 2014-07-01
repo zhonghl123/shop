@@ -29,19 +29,31 @@
             padding: 4px;
         }
     </style>
+    <script type="text/javascript">
+        function del(id){
+            if(confirm("确认删除么？")){
+                window.location.href="${path}/display?method=delBrand&id="+id;
+            }
+        }
+    </script>
 </head>
 <body>
 <table id="tb">
+    <caption style="text-align: left;">
+        <input type="button" value="添加" onclick="javascript:window.location.href='${path}/display?path=brand/brandAdd.jsp'">
+    </caption>
     <tr>
-        <th>录入人</th>
+        <th>品牌名</th>
         <th>创建时间</th>
-        <th>内容</th>
+        <th>操作</th>
     </tr>
     <c:forEach var="domain" items="${domainList}">
         <tr>
-            <td>${domain.inputer}</td>
+            <td>${domain.name}</td>
             <td><fmt:formatDate pattern="yyyy-MM-dd" value="${domain.createTime}"></fmt:formatDate></td>
-            <td>${domain.content}</td>
+            <td>
+                <a href="javascript:del('${domain.id}')">删除</a>
+            </td>
         </tr>
     </c:forEach>
 </table>

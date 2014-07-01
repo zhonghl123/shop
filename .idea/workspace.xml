@@ -6,7 +6,51 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b627d932-dd95-46ce-9663-f9f896512f9b" name="Default" comment="" />
+    <list default="true" id="b627d932-dd95-46ce-9663-f9f896512f9b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/Good.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/GoodDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/good/buyInfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/good/goodAdd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/good/goodBuy.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/good/goodDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/good/goodMain.jsp" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\common\paging.jsp" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\1234.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\2997baaf6e876cc57a62c6019420c655.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\2997baaf6e876cc57a62c6019420c655_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\btn.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\db4580c925ab3f82c1c13667034f3340._副本.gif" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\footerBackground.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\lianzai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\pBody.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\pBodyTop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\pBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\pSeparator.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\pTop.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\page1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\pageBackground.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\tu1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\images\wanjie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\reply\replyAdd.jsp" afterPath="" />
+      <change type="DELETED" beforePath="F:\shenxiaolin\WebRoot\reply\replyMain.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/BrandAction.java" afterPath="$PROJECT_DIR$/src/servlet/BrandAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/BrandDAO.java" afterPath="$PROJECT_DIR$/src/dao/BrandDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db/ConnectionPoolIMP.java" afterPath="$PROJECT_DIR$/src/db/ConnectionPoolIMP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/DisplayServlet.java" afterPath="$PROJECT_DIR$/src/servlet/DisplayServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/FirmAction.java" afterPath="$PROJECT_DIR$/src/servlet/FirmAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/FirmDAO.java" afterPath="$PROJECT_DIR$/src/dao/FirmDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/GoodAction.java" afterPath="$PROJECT_DIR$/src/servlet/GoodAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/HomeAction.java" afterPath="$PROJECT_DIR$/src/servlet/HomeAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/LoginAction.java" afterPath="$PROJECT_DIR$/src/servlet/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/brand/brandAdd.jsp" afterPath="$PROJECT_DIR$/WebRoot/brand/brandAdd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/firm/firmAdd.jsp" afterPath="$PROJECT_DIR$/WebRoot/firm/firmAdd.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/firm/firmMain.jsp" afterPath="$PROJECT_DIR$/WebRoot/firm/firmMain.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/home.jsp" afterPath="$PROJECT_DIR$/WebRoot/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shenxiaolin.iml" afterPath="$PROJECT_DIR$/shenxiaolin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\shenxiaolin\WebRoot\brand\brand.jsp" afterPath="$PROJECT_DIR$/WebRoot/brand/brandMain.jsp" />
+    </list>
     <ignored path="shenxiaolin.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,10 +112,116 @@
   <component name="FavoritesManager">
     <favorites_list name="shenxiaolin" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GoodAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/GoodAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="19" selection-start="5703" selection-end="5703" vertical-scroll-proportion="-7.48" vertical-offset="2701" max-vertical-offset="3135">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/DisplayServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="26" selection-start="2676" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1387">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginOutAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/LoginOutAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="74" selection-start="434" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/SystemContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="23" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodDAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/GoodDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="30" selection-start="1958" selection-end="1958" vertical-scroll-proportion="-1.84" vertical-offset="999" max-vertical-offset="1672">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/HomeAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="40" selection-start="498" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="608">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodAdd.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/good/goodAdd.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="25" selection-start="1511" selection-end="1511" vertical-scroll-proportion="-3.3962264" vertical-offset="561" max-vertical-offset="1539">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodBuy.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/good/goodBuy.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="38" selection-start="581" selection-end="588" vertical-scroll-proportion="-1.6415094" vertical-offset="103" max-vertical-offset="1007">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buyInfo.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/good/buyInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="12" selection-start="1101" selection-end="1101" vertical-scroll-proportion="3.8540146" vertical-offset="42" max-vertical-offset="741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodDetail.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/good/goodDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="36" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-18.178572" vertical-offset="650" max-vertical-offset="1520">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -96,24 +246,32 @@
         <option value="$PROJECT_DIR$/src/bo/AnimeClassification.java" />
         <option value="$PROJECT_DIR$/src/bo/Firm.java" />
         <option value="$PROJECT_DIR$/WebRoot/firm/animeClassMain.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/firm/firmAdd.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/FirmAction.java" />
-        <option value="$PROJECT_DIR$/src/servlet/BrandAction.java" />
         <option value="$PROJECT_DIR$/src/bo/Brand.java" />
         <option value="$PROJECT_DIR$/src/bean/Brand.java" />
-        <option value="$PROJECT_DIR$/src/dao/BrandDAO.java" />
-        <option value="$PROJECT_DIR$/src/dao/FirmDAO.java" />
+        <option value="$PROJECT_DIR$/src/servlet/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/db/ConnectionPoolIMP.java" />
+        <option value="$PROJECT_DIR$/src/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/servlet/FirmAction.java" />
         <option value="$PROJECT_DIR$/WebRoot/brand/brandAdd.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/brand/brand.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/firm/firmAdd.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/BrandAction.java" />
+        <option value="$PROJECT_DIR$/src/dao/BrandDAO.java" />
+        <option value="$PROJECT_DIR$/src/dao/FirmDAO.java" />
         <option value="$PROJECT_DIR$/WebRoot/firm/firmMain.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/servlet/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/good/goodAdd.jsp" />
+        <option value="$PROJECT_DIR$/src/bean/Good.java" />
+        <option value="$PROJECT_DIR$/WebRoot/good/goodMain.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/HomeAction.java" />
-        <option value="$PROJECT_DIR$/src/servlet/GoodAction.java" />
-        <option value="$PROJECT_DIR$/src/servlet/DisplayServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/LoginAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/good/goodDetail.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/home.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/dao/GoodDAO.java" />
+        <option value="$PROJECT_DIR$/src/servlet/DisplayServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/GoodAction.java" />
+        <option value="$PROJECT_DIR$/src/servlet/LoginAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/good/goodBuy.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/good/buyInfo.jsp" />
       </list>
     </option>
   </component>
@@ -128,10 +286,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1292" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -170,6 +328,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,10 +338,212 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="good" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenxiaolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,17 +579,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao" />
       <recent name="servlet" />
       <recent name="bo" />
-      <recent name="dao" />
       <recent name="bl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\shenxiaolin\WebRoot\good" />
       <recent name="D:\Documents\GitHub\shop\WebRoot" />
       <recent name="D:\自娱自乐\shenxiaolin\WebRoot\reply" />
       <recent name="D:\自娱自乐\shenxiaolin\WebRoot\anime" />
       <recent name="D:\自娱自乐\shenxiaolin\WebRoot\WEB-INF\lib" />
-      <recent name="D:\自娱自乐\shenxiaolin\WebRoot" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dao" />
@@ -250,26 +612,6 @@
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -324,40 +666,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -377,6 +685,41 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -444,6 +787,74 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -463,7 +874,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.41" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.39" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -577,11 +988,12 @@
       <workItem from="1404176690127" duration="4945000" />
       <workItem from="1404192398358" duration="1485000" />
       <workItem from="1404195121480" duration="14000" />
+      <workItem from="1404220518022" duration="10997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9938000" />
+    <option name="totallyTimeSpent" value="20935000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -604,38 +1016,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1292" height="776" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.66718507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40124416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32414553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43545878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5045872" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21150856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.70298165" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991362" sideWeight="0.70298165" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2470651" sideWeight="0.6869266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24635333" sideWeight="0.6869266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41972476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946004" sideWeight="0.73509175" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4024256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21278942" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -660,40 +1072,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/servlet/BrandAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="51" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="1900">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db.info">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="57" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1725" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/db.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/common/DownloadAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="13" selection-start="2931" selection-end="2931" vertical-scroll-proportion="0.0" vertical-offset="1875" max-vertical-offset="3800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="47" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1700" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="12" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0" vertical-offset="1175" max-vertical-offset="1900" />
@@ -733,7 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="27" selection-start="947" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1550">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -760,11 +1138,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/db.info">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="57" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1725" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/common/DownloadAction.java">
@@ -772,11 +1150,6 @@
         <state line="75" column="13" selection-start="2931" selection-end="2931" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="3325">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.6.0_21/jre/lib/rt.jar!/com/sun/org/apache/xalan/internal/xsltc/compiler/Stylesheet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/head.jsp">
@@ -789,60 +1162,11 @@
         <state line="35" column="47" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1700" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/SystemContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginOutAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="852" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/FirmAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1900">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/Firm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/BrandDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="32" selection-start="855" selection-end="855" vertical-scroll-proportion="-6.25" vertical-offset="375" max-vertical-offset="1500">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/FirmDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/firm/firmAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="71" selection-start="541" selection-end="548" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/error.jsp">
@@ -853,36 +1177,6 @@
     <entry file="file://$PROJECT_DIR$/WebRoot/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="12" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.18581907" vertical-offset="1023" max-vertical-offset="1900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/brand/brandAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="72" selection-start="549" selection-end="549" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/brand/brand.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="108" selection-start="1349" selection-end="1349" vertical-scroll-proportion="-3.467742" vertical-offset="835" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/firm/firmMain.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="-0.7352941" vertical-offset="300" max-vertical-offset="1650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="314" selection-end="314" vertical-scroll-proportion="-0.2850627" vertical-offset="625" max-vertical-offset="3325">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#443#449#0" expanded="false" />
-            <element signature="e#3484#3490#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/RegisterAction.java">
@@ -915,22 +1209,6 @@
         <state line="4" column="18" selection-start="156" selection-end="156" vertical-scroll-proportion="0.114025086" vertical-offset="0" max-vertical-offset="877" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/BrandAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="43" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1900">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/GoodAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="42" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="57" selection-start="1923" selection-end="1923" vertical-scroll-proportion="-14.029411" vertical-offset="373" max-vertical-offset="1325">
@@ -938,50 +1216,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/HomeAction.java">
+    <entry file="file://$PROJECT_DIR$/src/db/ConnectionPoolIMP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="19" selection-start="4880" selection-end="4880" vertical-scroll-proportion="-9.209678" vertical-offset="4629" max-vertical-offset="6625">
+        <state line="15" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/DisplayServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="19" selection-start="2122" selection-end="2127" vertical-scroll-proportion="-8.857142" vertical-offset="704" max-vertical-offset="1675">
+        <state line="2" column="19" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="498" selection-end="498" vertical-scroll-proportion="-6.84" vertical-offset="0" max-vertical-offset="2318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Firm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/firm/firmAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="897" selection-end="897" vertical-scroll-proportion="-8.142858" vertical-offset="152" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/BrandAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="31" selection-start="1595" selection-end="1595" vertical-scroll-proportion="2.64" vertical-offset="1025" max-vertical-offset="1444">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/brand/brandAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="672" selection-end="672" vertical-scroll-proportion="-3.392857" vertical-offset="152" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/brand/brandMain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="69" selection-start="1114" selection-end="1122" vertical-scroll-proportion="-2.6603773" vertical-offset="505" max-vertical-offset="1254">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="25" selection-start="2003" selection-end="2003" vertical-scroll-proportion="-13.029411" vertical-offset="1057" max-vertical-offset="2575">
+        <state line="93" column="48" selection-start="2709" selection-end="2717" vertical-scroll-proportion="0.51497006" vertical-offset="1595" max-vertical-offset="1957">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/BrandDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="1045">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#345#352#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/FirmAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-2.72" vertical-offset="654" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/FirmDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="912">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#340#346#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/common/UploadAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="9" selection-start="4304" selection-end="4304" vertical-scroll-proportion="1.2435677" vertical-offset="1600" max-vertical-offset="2875">
+        <state line="26" column="37" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="2185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/Good.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="2109">
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/firm/firmMain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="9" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-8.0" vertical-offset="688" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/good/goodMain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="35" selection-start="1689" selection-end="1689" vertical-scroll-proportion="-4.714286" vertical-offset="951" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/HomeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="40" selection-start="498" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="608">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/good/goodDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="36" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-18.178572" vertical-offset="650" max-vertical-offset="1520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/good/goodAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="25" selection-start="1511" selection-end="1511" vertical-scroll-proportion="-3.3962264" vertical-offset="561" max-vertical-offset="1539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/SystemContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="58" selection-start="6108" selection-end="6111" vertical-scroll-proportion="-9.641509" vertical-offset="3973" max-vertical-offset="4997">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/GoodDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="30" selection-start="1958" selection-end="1958" vertical-scroll-proportion="-1.84" vertical-offset="999" max-vertical-offset="1672">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginOutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="74" selection-start="434" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="78" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/good/goodBuy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="38" selection-start="581" selection-end="588" vertical-scroll-proportion="-1.6415094" vertical-offset="103" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/GoodAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="19" selection-start="5703" selection-end="5703" vertical-scroll-proportion="-7.48" vertical-offset="2701" max-vertical-offset="3135">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/DisplayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="26" selection-start="2676" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="793" max-vertical-offset="1387">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/good/buyInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="1101" selection-end="1101" vertical-scroll-proportion="3.8540146" vertical-offset="42" max-vertical-offset="741">
           <folding />
         </state>
       </provider>

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -34,9 +35,8 @@ public class LoginAction{
             }
             request.setAttribute("passedUser",user);
             SystemContext.setUser(request.getSession(),user);
-            target = "/home.jsp";
-            RequestDispatcher rd = request.getRequestDispatcher(target);
-            rd.forward(request, response);
+            ServletContext context = request.getSession().getServletContext();
+            response.sendRedirect(context.getContextPath() + "/display?method=goHome");
 		}catch(UserNoneException e){
 			request.setAttribute("errorUser","errorUser");
 			target = "/login.jsp";

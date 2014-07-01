@@ -16,12 +16,7 @@ public class BrandDAO {
         List<Brand> list = new ArrayList<Brand>();
         String sql = "select * from p_brand";
         ResultSet rs1;
-        if (firm.getName() != null && !"".equals(firm)) {
-            sql += " where name = ?";
-            rs1 = st.executeQuery(sql, firm.getName());
-        }else{
-             rs1 = st.executeQuery(sql);
-        }
+         rs1 = st.executeQuery(sql);
         try {
             while (rs1.next()) {
                 Brand bean = new Brand();

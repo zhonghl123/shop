@@ -17,7 +17,6 @@ public class ConnectionPoolIMP implements ConnectionPool{
     private ConnectionPoolIMP(){
         //conPool = getConnectionPool();
         System.out.println("单例模式开启");
-        //System.out.println(MAX_SIZE);
     }
 
     public synchronized static ConnectionPoolIMP getConnectionPool(){
