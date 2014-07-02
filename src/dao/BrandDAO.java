@@ -34,8 +34,8 @@ public class BrandDAO {
     public void add(Brand firm) {
         String name = firm.getName();
         Date createTime = firm.getCreateTime();
-        String sql = "insert into p_brand(name,create_time) values (?,?)";
-        st.executeUpdate(sql, name, createTime);
+        String sql = "insert into p_brand(name) values (?)";
+        st.executeUpdate(sql, name);
     }
 
     public void del(String id) {

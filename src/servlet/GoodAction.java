@@ -110,7 +110,9 @@ public class GoodAction {
         String target;
         try {
             request.setAttribute("domain",good);
-            target = "/good/goodDetail.jsp";
+            request.setAttribute("brandList", brandDao.find(null));
+            request.setAttribute("firmList", firmDao.find(null));
+            target = "/good/goodAdd.jsp";
         } catch (Exception e) {
             target = "/error.jsp";
         }

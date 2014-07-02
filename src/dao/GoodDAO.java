@@ -38,8 +38,8 @@ public class GoodDAO {
     }
 
     public void add(Good firm) {
-        String sql = "insert into p_good(pic,des,price,stock,create_time,name,brand,firm) values (?,?,?,?,?,?,?,?)";
-        st.executeUpdate(sql, firm.getPic(),firm.getDes(),firm.getPrice().toString(),firm.getStock(),firm.getCreate_time(),firm.getName(),firm.getBrand(),firm.getFirm());
+        String sql = "insert into p_good(pic,des,price,stock,name,brand,firm) values (?,?,?,?,?,?,?)";
+        st.executeUpdate(sql, firm.getPic(),firm.getDes(),firm.getPrice().toString(),firm.getStock(),firm.getName(),firm.getBrand(),firm.getFirm());
     }
 
     public void del(String id) {

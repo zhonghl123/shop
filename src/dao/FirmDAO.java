@@ -34,8 +34,8 @@ public class FirmDAO {
     public void add(Firm firm) {
         String name = firm.getName();
         Date createTime = firm.getCreateTime();
-        String sql = "insert into p_firm(name,create_time) values (?,?)";
-        st.executeUpdate(sql, name, createTime);
+        String sql = "insert into p_firm(name) values (?)";
+        st.executeUpdate(sql, name);
     }
 
     public void del(String id) {

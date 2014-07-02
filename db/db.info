@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50528
 File Encoding         : 65001
 
-Date: 2014-07-02 00:25:48
+Date: 2014-07-03 01:40:46
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -19,16 +19,15 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `p_brand`;
 CREATE TABLE `p_brand` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '动漫分类标示',
-  `name` varchar(20) NOT NULL COMMENT '动漫分类名称',
-  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '动漫分类创建时间',
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '标示',
+  `name` varchar(20) NOT NULL COMMENT '名称',
+  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of p_brand
 -- ----------------------------
-INSERT INTO `p_brand` VALUES ('8', '品牌1', '2014-07-01 21:35:27');
 
 -- ----------------------------
 -- Table structure for `p_buy_good`
@@ -46,30 +45,28 @@ CREATE TABLE `p_buy_good` (
 -- ----------------------------
 -- Records of p_buy_good
 -- ----------------------------
-INSERT INTO `p_buy_good` VALUES ('0', '121212', '0', '12', 'admin');
 
 -- ----------------------------
 -- Table structure for `p_firm`
 -- ----------------------------
 DROP TABLE IF EXISTS `p_firm`;
 CREATE TABLE `p_firm` (
-  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '动漫分类标示',
-  `name` varchar(20) NOT NULL COMMENT '动漫分类名称',
-  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '动漫分类创建时间',
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '标示',
+  `name` varchar(20) NOT NULL COMMENT '名称',
+  `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '创建时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of p_firm
 -- ----------------------------
-INSERT INTO `p_firm` VALUES ('7', '厂商1', '2014-07-01 22:38:29');
 
 -- ----------------------------
 -- Table structure for `p_good`
 -- ----------------------------
 DROP TABLE IF EXISTS `p_good`;
 CREATE TABLE `p_good` (
-  `id` int(11) NOT NULL DEFAULT '0',
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `pic` varchar(200) DEFAULT NULL,
   `des` varchar(1000) DEFAULT NULL,
   `price` double DEFAULT NULL,
@@ -79,12 +76,11 @@ CREATE TABLE `p_good` (
   `brand` int(11) DEFAULT NULL,
   `firm` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of p_good
 -- ----------------------------
-INSERT INTO `p_good` VALUES ('0', '/upload/20140701232411_577.jpg', '12', '12', '12', '2014-07-01 23:24:11', '测试测试', '8', '7');
 
 -- ----------------------------
 -- Table structure for `p_user`
@@ -99,4 +95,6 @@ CREATE TABLE `p_user` (
 -- ----------------------------
 -- Records of p_user
 -- ----------------------------
-INSERT INTO `p_user` VALUES ('12', '12'), ('13', '13'), ('admin', 'admin');
+INSERT INTO `p_user` VALUES ('12', '12');
+INSERT INTO `p_user` VALUES ('13', '13');
+INSERT INTO `p_user` VALUES ('admin', 'admin');
